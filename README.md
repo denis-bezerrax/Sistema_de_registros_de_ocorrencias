@@ -1,7 +1,7 @@
 <h1 align="center">Sistema de registros de ocorrências</h1>
 <h2>Desenvolvedores</h2>
 <p>
-  Ana Paula - RM574458
+  Ana Paula - RM574458 <br>
   Denis Bezerra - RM575175
 </p>
 
