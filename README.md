@@ -138,3 +138,12 @@
 <h2>
   Conclusão
 </h2>
+<p>
+  O Neighborhood Action Dashboard mostrou como um sistema simples em Python pode ajudar no acompanhamento de problemas de um bairro. O morador registra uma demanda e recebe um número de ID, e quem acompanha o caso consegue localizar o registro, atualizar a situação e escrever uma devolutiva. Isso torna o processo mais organizado e transparente, já que cada alteração fica guardada no histórico, com data e hora.
+</p>
+<p>
+  Durante o desenvolvimento, aplicamos estruturas de dados vistas na disciplina: lista e dicionários para os registros, fila para as pendências (a mais antiga sai primeiro), pilha para os eventos recentes e matriz para os indicadores por categoria e situação. Também melhoramos o código com menus em um único laço, validação das entradas e compatibilidade com Python 3.8 ou superior.
+</p>
+<p>
+  O projeto tem limitações: os dados ficam só em memória e se perdem ao fechar o programa, e a data de abertura é automática. Como melhorias futuras, seria possível salvar os dados em arquivo ou banco de dados e criar uma interface mais amigável. Mesmo assim, o projeto cumpriu o objetivo de simular, de forma prática, o ciclo de uma ocorrência, do registro até a conclusão.
+</p>
