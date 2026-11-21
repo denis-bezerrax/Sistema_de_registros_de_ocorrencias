@@ -245,6 +245,12 @@ O id da sua ocorrência é 14.
   <href>https://youtu.be/Zdj9Z14_mbk</href>
 </p>
 <h2>
+  Uso da IA
+</h2>
+<p>
+  Utilizamos IA no estágio final do projeto para revisar o código e nos mostrar se faltava algo. A parte de tempo dos registros foi desenvolvida com o auxílio da IA por se tratar de algo mais complexo para nós. Além disso, determinadas partes do README foram criadas também com o auxílio dela.
+</p>
+<h2>
   Conclusão
 </h2>
 <p>
