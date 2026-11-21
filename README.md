@@ -120,15 +120,124 @@
 <h2>
   Indicadores implementados
 </h2>
+<table>
+  <thead>
+    <tr>
+      <th>Indicador</th>
+      <th>Descrição</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Total de ocorrências</td>
+      <td>Apresenta a quantidade total de ocorrências registradas no sistema.</td>
+    </tr>
+    <tr>
+      <td>Ocorrências abertas</td>
+      <td>Contabiliza as ocorrências que permanecem na situação Aberta.</td>
+    </tr>
+    <tr>
+      <td>Ocorrências em análise</td>
+      <td>Apresenta a quantidade de ocorrências que estão sendo acompanhadas e analisadas.</td>
+    </tr>
+    <tr>
+      <td>Ocorrências concluídas</td>
+      <td>Contabiliza as ocorrências cujo acompanhamento foi encerrado.</td>
+    </tr>
+    <tr>
+      <td>Ocorrências por categoria</td>
+      <td>Apresenta a distribuição das ocorrências de acordo com suas categorias.</td>
+    </tr>
+    <tr>
+      <td>Ocorrências por situação</td>
+      <td>Exibe a quantidade de registros agrupados por situação.</td>
+    </tr>
+    <tr>
+      <td>Pendências</td>
+      <td>Identifica e contabiliza as ocorrências que ainda não foram concluídas.</td>
+    </tr>
+  </tbody>
+</table>
 <h2>
   Como executar
 </h2>
+
+<h3>1. Clone o repositório</h3>
+
+<pre><code>git clone https://github.com/denis-bezerrax/Sistema_de_registros_de_ocorrencias.git</code></pre>
+
+<h3>2. Acesse a pasta do projeto</h3>
+
+<pre><code>cd Sistema_de_registros_de_ocorrencias</code></pre>
+
+<h3>3. Execute o sistema</h3>
+
+<pre><code>python3 main.py</code></pre>
+
+<h3>Pré-requisitos</h3>
+
+<ul>
+  <li>Python 3 instalado;</li>
+  <li>Terminal ou ambiente compatível com execução Python.</li>
+</ul>
+
+<p>O sistema utiliza bibliotecas nativas do Python, não sendo necessária a instalação de dependências externas.</p>
 <h2>
   Exemplo de cadastro
 </h2>
+<h2>Exemplo de Cadastro</h2>
+
+<p>Ao selecionar a opção de cadastro, o sistema solicita as informações necessárias para registrar uma nova ocorrência.</p>
+
+<h3>Exemplo de entrada</h3>
+
+<pre>
+Categoria: Iluminação
+Descrição: Poste de iluminação pública está apagado durante a noite.
+Local: Rua das Flores, Centro
+</pre>
+
+<h3>Registro gerado pelo sistema</h3>
+
+<pre>
+Resumo da ocorrência
+
+Categoria: Iluminação
+Descrição: Poste de iluminação pública está apagado durante a noite.
+Local: Rua das Flores, Centro
+Data de abertura: 21/11/2026 às 09:52:00
+
+A sua ocorrência foi salva!
+
+O id da sua ocorrência é 14.
+</pre>
+
+<p>Após o cadastro, a ocorrência recebe automaticamente um identificador único, a data e o horário de abertura, além da situação inicial <strong>Aberta</strong>. O registro fica disponível para consulta e acompanhamento posterior.</p>
+
 <h2>
   Cuidados adotados com acessibilidade, inclusão e privacidade
 </h2>
+<h3>Acessibilidade</h3>
+<ul>
+  <li>Organização das informações de forma clara e objetiva, facilitando a utilização do sistema.</li>
+  <li>Menu textual com opções numeradas, permitindo uma navegação simples e intuitiva.</li>
+  <li>Possibilidade de registrar ocorrências relacionadas à acessibilidade urbana, como problemas em rampas e calçadas.</li>
+</ul>
+
+<h3>Inclusão</h3>
+<ul>
+  <li>Disponibilização de categorias que abrangem diferentes problemas urbanos e sociais.</li>
+  <li>Possibilidade de registrar demandas relacionadas a escolas, hospitais, iluminação, ruas, calçadas e acessibilidade.</li>
+  <li>Proposta de contribuir para a identificação de problemas que impactam diferentes grupos da população.</li>
+</ul>
+
+<h3>Privacidade</h3>
+<ul>
+  <li>Solicitação apenas das informações necessárias para o registro da ocorrência.</li>
+  <li>Utilização de locais e descrições para contextualizar os problemas relatados.</li>
+  <li>Ausência de solicitação de dados pessoais sensíveis durante o cadastro.</li>
+</ul>
+
 <h2>
   Link do Youtube
 </h2>
